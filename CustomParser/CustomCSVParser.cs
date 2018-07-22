@@ -9,6 +9,11 @@ namespace CustomParser
 {
     public class CustomCSVParser
     {
+        /// <summary>
+        /// Convert Text Message to CSV format
+        /// </summary>
+        /// <param name="textValue"></param>
+        /// <returns></returns>
         public static string ToCsv(string textValue)
         {
             string retValue = String.Empty;
