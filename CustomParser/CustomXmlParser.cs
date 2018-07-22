@@ -8,6 +8,11 @@ namespace CustomParser
 {
     public class CustomXmlParser
     {
+        /// <summary>
+        /// Convert Text to relevant Xml
+        /// </summary>
+        /// <param name="textValue"></param>
+        /// <returns></returns>
         public static string ToXml(string textValue)
         {
             Text textObj=UtiliMethods.populateObject(textValue);
